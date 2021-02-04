@@ -1,0 +1,17 @@
+body {
+    background: black;
+    font-style: oblique;
+    font-family: 'Times New Roman';
+    color: rgb(0, 255, 0);
+}
+
+.selection {
+    background-color: black;
+    color: rgb(0, 255, 0);
+
+}
+
+.contact {
+    background-color: rgb(157, 242, 157);
+    color: black;
+}
