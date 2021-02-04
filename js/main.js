@@ -1,39 +1,41 @@
-function clicou(){
+function clicou() {
     //alert("Obrigado por clicar");
-     //console.log(document.getElementById("agradecimento"));
+    //console.log(document.getElementById("agradecimento"));
     document.getElementById("agradecimento").innerHTML = "<b>Github</b>";
-}   
-function redirecionar(){
+}
+
+function redirecionar() {
     window.open("https://github.com/LorenzoAHenrique/");
     //window.location.href = "https://github.com/LorenzoAHenrique/";
 }
-function trocar(elemento){
+
+function trocar(elemento) {
     //document.getElementById("mousemove").innerHTML = "BemAqui";
     //alert("trocar texto");
     elemento.innerHTML = "Errou";
 }
-function voltar(elemento){
-   //document.getElementById("mousemove").innerHTML = "Passa o mouse aqui";
+
+function voltar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Passa o mouse aqui";
     elemento.innerHTML = "???????";
-}  
-
-function essemesmo(){
-
-    document.getElementById("diferente").innerHTML = "Achou";
-}  
-
-
-function enigma(){
-    window.location.href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"
 }
 
-function load(){
+function essemesmo() {
+
+    document.getElementById("diferente").innerHTML = "Achou";
+}
+
+
+function enigma() {
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"
+}
+
+function load() {
     alert("Enigma Carregado");
 }
 
 function funcaochange(elemento) {
-    console.log(elemento.value)
-    
+    console.log(elemento.value);
 }
 /*
 function soma(n1, n2){
