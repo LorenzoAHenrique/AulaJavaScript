@@ -14,7 +14,7 @@ function trocar(elemento){
 }
 function voltar(elemento){
    //document.getElementById("mousemove").innerHTML = "Passa o mouse aqui";
-    elemento.innerHTML = "?";
+    elemento.innerHTML = "???????";
 }  
 
 function essemesmo(){
@@ -27,6 +27,14 @@ function enigma(){
     window.location.href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"
 }
 
+function load(){
+    alert("Enigma Carregado");
+}
+
+function funcaochange(elemento) {
+    console.log(elemento.value)
+    
+}
 /*
 function soma(n1, n2){
     return n1 + n2;
